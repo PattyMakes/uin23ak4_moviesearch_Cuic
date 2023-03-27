@@ -1,3 +1,6 @@
+//KILDER: https://legacy.reactjs.org/docs/hooks-effect.html
+//KILDER: https://stackoverflow.com/questions/62341026/movies-map-is-not-a-function
+
 import '../css/main.css';
 import { useState, useEffect } from 'react';
 import { MovieCard } from './MovieCard';

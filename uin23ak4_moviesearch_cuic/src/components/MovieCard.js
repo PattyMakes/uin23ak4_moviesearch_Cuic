@@ -1,3 +1,5 @@
+//KILDER: https://www.youtube.com/watch?v=VUXyJZWRad0&ab_channel=CodeWithTony
+
 function MovieCard({ movie, poster }) {
     return (
       <div className="movie-card">

@@ -1,3 +1,5 @@
+//KILDER: https://www.freecodecamp.org/news/react-movie-app-tutorial/
+
 import { useState } from 'react';
 import './css/main.css';
 import SearchResults from './components/SearchResults';
