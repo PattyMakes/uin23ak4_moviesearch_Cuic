@@ -27,7 +27,7 @@ function MovieList() {
         <MovieCard
           key={movie.imdbID}
           movie={movie}
-          poster={movie.Poster !== 'N/A' ? movie.Poster : 'https://via.placeholder.com/150x225'}
+          poster={movie.Poster !== 'N/A' ? movie.Poster : 'https://via.placeholder.com/250x250'}
         />
       ))}
     </div>
