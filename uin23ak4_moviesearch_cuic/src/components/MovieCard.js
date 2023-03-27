@@ -4,17 +4,17 @@ function MovieCard({ movie, poster }) {
         <img src={poster} alt={movie.Title} />
         <div className="movie-details">
           <h2>{movie.Title}</h2>
-          <p><strong>Year: </strong>{movie.Year}</p>
-          <p><strong>Type: </strong>{movie.Type}</p>
-          <p><strong>IMDb ID: </strong>{movie.imdbID}</p>
-          <p><strong>IMDB Rating: </strong>{movie.imdbRating}</p>
-          <p><strong>Rated: </strong>{movie.Rated}</p>
-          <p><strong>Runtime: </strong>{movie.Runtime}</p>
-          <p><strong>Genre: </strong>{movie.Genre}</p>
-          <p><strong>Director: </strong>{movie.Director}</p>
-          <p><strong>Writer: </strong>{movie.Writer}</p>
-          <p><strong>Actors: </strong>{movie.Actors}</p>
-          {movie.Awards && <p><strong>Awards: </strong>{movie.Awards}</p>}
+          <li><strong>Year: </strong>{movie.Year}</li>
+          <li><strong>Type: </strong>{movie.Type}</li>
+          <li><strong>IMDb ID: </strong>{movie.imdbID}</li>
+          <li><strong>IMDB Rating: </strong>{movie.imdbRating}</li>
+          <li><strong>Rated: </strong>{movie.Rated}</li>
+          <li><strong>Runtime: </strong>{movie.Runtime}</li>
+          <li><strong>Genre: </strong>{movie.Genre}</li>
+          <li><strong>Director: </strong>{movie.Director}</li>
+          <li><strong>Writer: </strong>{movie.Writer}</li>
+          <li><strong>Actors: </strong>{movie.Actors}</li>
+          {movie.Awards && <li><strong>Awards: </strong>{movie.Awards}</li>}
         </div>
       </div>
     );
