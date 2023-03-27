@@ -1,4 +1,4 @@
-import '../css/SearchResults.css';
+import '../css/main.css';
 import { useState, useEffect } from 'react';
 import { MovieCard } from './MovieCard';
 
