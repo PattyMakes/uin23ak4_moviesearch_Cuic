@@ -14,10 +14,10 @@ function MovieCard({ movie, poster }) {
           <p><strong>Director: </strong>{movie.Director}</p>
           <p><strong>Writer: </strong>{movie.Writer}</p>
           <p><strong>Actors: </strong>{movie.Actors}</p>
-          <p><strong>Plot: </strong>{movie.Plot}</p>
+          {movie.Awards && <p><strong>Awards: </strong>{movie.Awards}</p>}
         </div>
       </div>
     );
   }
-
+  
   export { MovieCard };

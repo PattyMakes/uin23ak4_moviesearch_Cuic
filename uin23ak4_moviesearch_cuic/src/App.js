@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './css/SearchResults.css';
+import './css/main.css';
 import SearchResults from './components/SearchResults';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     try {
       const response = await fetch(`https://www.omdbapi.com/?apikey=7138b361&s=${searchQuery}&type=movie&plot=full`);
       const data = await response.json();
-      setMovies(data.Search.slice(0, 10));
+      setMovies(data.Search);
     } catch (error) {
       console.error(error);
     }
@@ -34,7 +34,7 @@ function App() {
         </div>
       </header>
       <main>
-        {movies && <SearchResults movies={movies} />}
+        {searchQuery.length >= 3 && movies && <SearchResults movies={movies} />}
       </main>
     </div>
   );
