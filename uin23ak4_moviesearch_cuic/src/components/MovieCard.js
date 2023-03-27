@@ -6,8 +6,8 @@ function MovieCard({ movie, poster }) {
           <h2>{movie.Title}</h2>
           <p><strong>Year: </strong>{movie.Year}</p>
           <p><strong>Type: </strong>{movie.Type}</p>
-          <p><strong>imdb ID: </strong>{movie.imdbID}</p>
-          <p><strong>imdb Rating: </strong>{movie.imdbRating}</p>
+          <p><strong>IMDb ID: </strong>{movie.imdbID}</p>
+          <p><strong>IMDB Rating: </strong>{movie.imdbRating}</p>
           <p><strong>Rated: </strong>{movie.Rated}</p>
           <p><strong>Runtime: </strong>{movie.Runtime}</p>
           <p><strong>Genre: </strong>{movie.Genre}</p>
